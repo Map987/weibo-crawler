@@ -1793,7 +1793,7 @@ class Weibo(object):
         connection.commit()
 
     def get_sqlte_path(self):
-        return "./weibo/weibodata.db"
+        return "/content/weibo-crawler/weibo/weibodata.db"
 
     def get_sqlite_create_sql(self):
         create_sql = """
